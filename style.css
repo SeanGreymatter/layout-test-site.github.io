@@ -1,0 +1,28 @@
+.first-article {
+    display: grid;
+    border: 1px rgb(0, 0, 0) solid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    margin: 10px 10px;
+    padding: 25px;
+}
+
+.first-article h1 {
+    margin: 0;
+    font: small-caps bold 2rem sans-serif;
+    color: rgb(0, 129, 50);
+    margin-bottom: 0;
+    padding: 10px;
+    border: 1px rgb(255, 0, 0) solid;
+}
+
+.first-article p {
+    margin: 0;
+    padding: 10px;
+    border: 1px blue solid;
+}
+
+span.red {
+    color: rgb(173, 0, 0);
+    font-weight: bold;
+}
